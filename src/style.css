@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 15px;
+}
+.logo span {
+  font-size: 10px;
+  font-weight: normal;
+}
+.headerBdr {
+  /* border: 1px solid black; */
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  margin-bottom: 0px !important;
+  padding-left: 0px !important;
+}
+li {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* .li link{color: black; text-decoration: none;} */
+.icons {
+  font-size: 13px;
+  display: flex;
+  gap: 15px;
+}
+
+.mediaicon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  position: absolute;
+  left: 1%;
+  top: 40%;
+}
+.bannerWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.txtWrap {
+  width: 35%;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+h1 {
+  font-size: 5vw !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+.txtWrap span {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.txtWrap p {
+  font-size: 12px;
+  color: rgb(95, 94, 94);
+  width: 50%;
+  margin: 15px 0px;
+  line-height: 17px;
+}
+.button {
+  background-color: black;
+  font-size: 12px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+
+.offer li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.shoetxt {
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 8%;
+  left: 27%;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+.vintagetxt {
+  position: absolute;
+  text-transform: uppercase;
+  top: 20%;
+  left: 11%;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.vintagetxt span {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.vintageBtn {
+  margin-top: 15px;
+}
+.menJacketTxt {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.menJacketTxt span {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.sunglasTxt {
+  position: absolute;
+  font-size: 12px;
+  text-transform: uppercase;
+  left: 25%;
+  bottom: 10%;
+}
+.offerBrand {
+  position: absolute;
+  top: 25%;
+  right: 16%;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offerBrand span {
+  font-size: 15px;
+  font-weight: normal;
+}
+.offerBrandButn {
+  background-color: #fff;
+  color: #000;
+  padding: 6px 25px;
+  margin-top: 14px;
+}
+
+.featureProduct {
+  width: 100%;
+  line-height: 20px;
+  font-size: 12px;
+}
+.featureProduct p {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.featureProduct span {
+  color: #898989;
+  text-transform: capitalize;
+}
+.featureProductPrice {
+  text-decoration: line-through;
+  display: inline;
+  margin-right: 10px;
+}
+
+.subscribe {
+  position: absolute;
+  right: 55% !important;
+  top: 33%;
+}
+.subscribeImg {
+  background-image: url(../src/assets/images/subscribe.png);
+  height: 250px;
+  background-repeat: no-repeat;
+  width: 300px;
+  margin-left: 60%;
+}
+.blogWrap {
+  position: absolute;
+  left: 55px;
+  bottom: -16px;
+  padding: 10px 45px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 11%;
+}
+.details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.details ul li {
+  text-transform: capitalize;
+  color: #727272;
+}
+.details ul li span {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+.bold {
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-block;
+  color: #000;
+}
+
+p {
+  color: #727272;
+  text-transform: capitalize;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.signupWrap {
+  width: 30%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgb(239, 242, 244);
+  margin-left: 60%;
+}
+
+.signupButon {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  background-color: #cdced2;
+  border-radius: 3px;
+  padding: 3px;
+}
+.loginButon {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  background-color: #cdced2;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+
+@media (min-width: 600px){
+  .details{
+
+  }
+}
